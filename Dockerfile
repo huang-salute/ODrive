@@ -25,7 +25,7 @@ CMD \
 	# Regenerate python interface
 	python interface_generator_stub.py \
 	--definitions odrive-interface.yaml \
-	--template ../tools/enums_template.j3 \
+	--template ../tools/enums_template.j2 \
 	--output ../tools/odrive/enums.py && \
 	python interface_generator_stub.py \
 	--definitions odrive-interface.yaml \
